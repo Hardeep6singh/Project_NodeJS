@@ -3,10 +3,10 @@ require('dotenv').config()
 const ExtractJwt = require('passport-jwt').ExtractJwt
 const mongoose = require('mongoose')
 const Sale = require('./../models/sale')
-require('dotenv').config()
-//getting secret key
 
-const key = process.env.secret
+//defining secret key
+
+const key = 'hardeep123'
 
 var opts={}
 
