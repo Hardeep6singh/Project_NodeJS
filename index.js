@@ -36,6 +36,7 @@ mongoose
 const sales = require('./routes/api/sales')
 
 app.get('/', (req, res) => {
+   
     res.render('jwt_valid')
 })
 

@@ -8,13 +8,6 @@ const passport = require('passport')
 const Sale = require('./../../models/sale')
 
 
-router.get('/',(req,res)=>{
-
-     
-    //route where user will enter the JWt token in form
-    res.render('jwt_valid')
-})
-
 router.post('/form',passport.authenticate('jwt',{session:false}), //middleware from passport-jwt
     async(req,res)=>{
     res.render('form');
