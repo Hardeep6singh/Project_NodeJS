@@ -1,0 +1,140 @@
+/* Bordered form */
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+html{
+  height:100%;
+
+}
+body{
+  min-height:100%;
+  display:flex;
+  flex-direction: column;
+}
+form {
+  border: 3px solid #f1f1f1;
+  margin-top:6%;
+  margin-left:32%;
+  height:50%;
+  width:30%;
+  background-color:lightseagreen;
+}
+header{
+  background: lightseagreen;
+  padding:70px;
+  
+}
+/* Full-width inputs */
+input[type=text], input[type=password]{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+  
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 13px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 28%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  text-align: center;
+}
+nav ul li{
+  display: inline-block;
+  padding: 3px;
+  margin : 0 22px 0 22px;
+}
+nav ul li a{
+  color:white;
+}
+nav ul{
+  margin: 11px 10px 11px 0;
+  float: right;
+}
+nav ul li:first-child{
+  color: black;
+  font-weight: bold;
+}
+header a img{
+  height:8%;
+  width:8%;
+  float:left;
+}
+main img{
+  height: 100%;
+  width: 100%;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: lightseagreen;
+  color: white;
+  margin-top: auto;
+}
+
+footer p {
+  color: white;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightseagreen;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 22px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: lightseagreen;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+
+
