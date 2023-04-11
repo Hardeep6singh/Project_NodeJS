@@ -1,4 +1,5 @@
 const JwtStrategy = require('passport-jwt').Strategy
+require('dotenv').config()
 const ExtractJwt = require('passport-jwt').ExtractJwt
 const mongoose = require('mongoose')
 const Sale = require('./../models/sale')

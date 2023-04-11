@@ -1,3 +1,4 @@
+require('dotenv').config()
 const express = require('express')
 const app = express()
 const exphbs = require('express-handlebars'); 
@@ -7,7 +8,7 @@ var passport  = require('passport');
 
 const port = 8000;
 
-require('dotenv').config()
+
 //const port = process.env.port;
 
 app.use(express.static('public'));
