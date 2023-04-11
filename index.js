@@ -30,8 +30,15 @@ mongoose
     .then(() => console.log("Connected to MongoDB"))
     .catch((err) => console.log(err));
 
+
+
 //Importing the sales module 
 const sales = require('./routes/api/sales')
+
+app.get('/', (req, res) => {
+    res.render('jwt_valid')
+})
+
 app.use('/api/sales', sales) //Handling http requests to /api/sales path and associating it with sales module to handle the requests.
 
 require('./strategies/jsonwtStrategy')(passport)
